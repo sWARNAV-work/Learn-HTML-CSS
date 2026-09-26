@@ -8,10 +8,13 @@ body
 {
     background-color: #ffffff;
     padding: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 h1
 {
+    font-family: Arial, sans-serif;
     color: #8a00ec;
     font-size: 100px;
     text-align: center;
