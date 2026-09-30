@@ -58,10 +58,15 @@ h1
 {
     font-family: 'Times New Roman', Times, serif;
     color: #8a00ec;
-    font-size: 7.5rem;
+    font-size: 5.5rem;
     font-weight: 900;
     text-align: center;
     line-height: 0.9;
+
+    @media (width > 700px)
+    {
+        font-size: 7.5rem;
+    }
 }
 
 h2
@@ -135,10 +140,25 @@ footer
 
 .two-column-layout
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 70px;
+    @media (width > 700px)
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 70px;
+        margin:auto;
+    }
 }
+
+.two-column-layout img
+{
+    margin-inline: auto;
+    /* @media (width < 700px)
+    {
+        inline-size: 100%;
+        height: auto;
+    } */
+}
+
 .primary-nav
 {
 
