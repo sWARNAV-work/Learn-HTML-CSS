@@ -140,12 +140,12 @@ footer
 
 .two-column-layout
 {
+    margin-block-end: 5rem;
     @media (width > 700px)
     {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 70px;
-        margin:auto;
     }
 }
 
@@ -159,10 +159,6 @@ footer
     } */
 }
 
-.primary-nav
-{
-
-}
 .primary-nav ul
 {
     display: flex;
