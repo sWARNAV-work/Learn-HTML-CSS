@@ -1,3 +1,9 @@
+
+| <img src="css/Learning-HTML.svg" width="200">  <img src="css/CSS.svg" width="200"> |
+
+This is more of a "Journal" than a readme, it should be read with that thought in the reader's conciousness. Pardon me for the mishap, and would soon write a proper Readme.md.
+        
+
 It seems that I've hit a road block and have to learn HTML and CSS properly before trying to set up a frontend. I've started a Course from Kevin Powell at courses.thecascade.dev . 
 
 ### September 26<sup>th</sup>, 2026
